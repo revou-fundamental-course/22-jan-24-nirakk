@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h1 {
+    color: #060606;
+    font-style: italic;
+    font-size: 20px;
+    margin: 0;
+}
+
+.toolbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.toolbar li {
+    margin-right: 20px;
+}
+
+.toolbar a {
+    text-decoration: none;
+    color: #060606;
+    font-weight: bold;
+}
+
+.toolbar a:hover {
+    color: #ffcc00;
+}
+
+/* Container utama */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+.image-with-caption {
+    flex: 0 1 calc(40% - 15px); 
+    margin: 10px;
+}
+
+.image-with-caption img {
+    width: 110%;
+    height: auto;
+}
+
+.image-with-caption p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  color: gray;
+    font-weight: lighter;
+    font-size: 14px;
+}
+.contact-info {
+    flex: 0 1 calc(40% - 15px);
+    padding: 10px; 
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+.contact-info img {
+    max-width: 10%;
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.contact-info p {
+    margin: 3px 0; 
+    font-size: 20px; 
+}
+
+.container .image-with-caption {
+    display: inline-block; 
+}
+
+.contact-us {
+    flex: 0 1 calc(40% - 15px); 
+    padding: 15px; 
+    box-sizing: border-box;
+    background-color: #f2f2f2; 
+}
+.contact-us table {
+    width: 50%; 
+}
+
+.contact-us h1 {
+    margin: 0;
+}
+
+.contact-us p {
+    margin-bottom: 10px;
+}
+
+.contact-us button {
+    display: block; 
+    margin: 0 auto; 
+    background-color: #8B4513; 
+    color: #fff;
+    padding: 10px 20px; 
+    border: 2px solid #8B4513; 
+    cursor: pointer; 
+}
+
+
+.contact-us button:hover {
+    background-color: #A0522D; 
+    border: 2px solid #A0522D; 
+}
+
+.form-group label {
+    display: block; 
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%; 
+    padding: 8px; 
+    box-sizing: border-box; 
+    margin-bottom: 10px;
+}
+
+.caption {
+    text-align: center;
+}
+
+.caption h1 {
+    margin: 0;
+}
+
+.caption p {
+    margin: 5px 0; 
+    font-weight: lighter;
+    font-size: 14px;
+}
+.visi-misi {
+    margin-top: 10px; 
+    margin-left: 50px;
+}
+
+.visi-misi h1 {
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
+
+.visi-misi ol {
+    text-align: left; 
+    margin-left: 20px;
+}
+
+.visi-misi ol li {
+    margin-bottom: 10px; 
+}
+
+
